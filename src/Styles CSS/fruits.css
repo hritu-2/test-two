@@ -1,0 +1,97 @@
+.homeofruit{
+    background-image: url('../Images/firuts.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:400px;
+    width:100%;
+    position: relative;
+}
+.homeofveg{
+    background-image: url('../Images/Sabji.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:500px;
+    width:100%;
+    position: relative;
+}
+.homeofcow{
+    background-image: url('../Images/milky.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:500px;
+    width:100%;
+    position: relative;
+}
+
+
+.fruititle{
+    background-color:white;
+    
+    color:darkred;
+    font-size:60px;
+    font-weight: 800;
+    position: absolute;
+    top:50%;
+    right:42%;
+}
+.flex{
+    margin-top: 30px;
+    display:flex;
+    flex-wrap:wrap;
+   
+}
+.prod-bord{
+    border: 0.5px solid gray;
+    border-style: dotted;
+    height:500px;
+    border-radius:5px;
+    margin:20px;
+    height:370px;
+    
+}
+.product-item{
+    padding:20px;
+    text-align: center;
+}
+.add{
+    background-color: #318D35;
+    width:150px;
+    height:40px;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius:10px;
+}
+
+.add:hover{
+    background-color: #256A28;
+}
+
+/*CART LIST */
+.cart-prod{
+border: 0.5px dotted gray;
+margin:20px;
+text-align: center;
+word-spacing: 10px;
+}
+.plusminus{
+    background-color: white;
+    border:none;
+    cursor:pointer;
+    
+}
+
+.check{
+    background-color: #318D35;
+    width:200px;
+    height:50px;
+    font-size:18.5px;
+
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius:25px;
+}
+.check:hover{
+    background-color: #256A28;
+}

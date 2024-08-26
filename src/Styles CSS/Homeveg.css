@@ -1,0 +1,318 @@
+/*Animation*/
+@keyframes slideInLeft{
+  from{
+      transform: translateX(-300px);
+      opacity:0.2;
+  }
+  to{
+      transform: translateX(0);
+      opacity:1;
+  }
+}
+@keyframes slideInRight{
+  from{
+      transform: translateX(300px);
+      opacity:0;
+  }
+  to{
+      transform: translateX(0);
+      opacity:1;
+  }
+}
+.hea1{
+  animation: slideInLeft 1.5s ease-in both;
+}
+.hea2{
+  animation: slideInRight 1.5s ease-in both;
+  animation-delay: 2s;
+}
+
+
+
+
+
+
+/*--------------------------*/
+.home{
+    background-image: url('../Images/Vegspread.jpg');
+    /*filter: brightness(45%);*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:600px;
+    width:100%;
+   
+    
+
+}
+.des{
+    text-align: center;
+    color: white;
+    filter: brightness(95%);
+    padding-top:150px;
+       
+}
+.fol{
+    font-size:25px;
+}
+.butto{
+    height:42px;
+    width:140px;
+    background-color:#318D35;
+    margin-top:28px;
+    border-radius:30px;
+    border: 0.5px solid #318D35;
+    color:white;
+    font-weight: 600;
+    font-size:15px;
+}
+.whbut{
+    height:42px;
+    width:140px;
+    
+    background-color:white;
+    margin-top:28px;
+    border-radius:30px;
+    border: 0.5px solid #E6E1DB;
+    color: black;
+    font-weight: 600;
+    font-size:15px;
+}
+.box1{
+    position: relative;
+    background-color: #F5F2EF;
+    height:300px;
+    width: 450px;
+    color:#071A01;
+    z-index:1;
+    
+    
+    margin-top:140px;
+}
+.cucu{
+   
+    background-image: url('../Images/pngegg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:300px;
+    width:100%;
+    position: absolute;
+    right:-120px;
+    bottom: -60px;
+    
+}
+.box2{
+    position: relative;
+    background-color: #E6E1DB;
+    height:300px;
+    width: 450px;
+    z-index:1;
+    margin-top:140px;
+    position:absolute;
+    bottom: 0;
+    right:-400px;
+}
+.broc{
+    
+    background-image: url('../Images/broc.png');
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    position: absolute;
+    right:-200px;
+    z-index:1;
+    bottom: -80px; 
+}
+.box3{
+    position: relative;
+    background-color: #B1D679;
+    height:300px;
+    width: 425px;
+    z-index:1;
+    margin-top:140px;
+    position:absolute;
+    bottom: 0;
+    right:-813px;
+    
+}
+.caba{
+ 
+    background-image: url('../Images/caba.png');
+    background-repeat: no-repeat;
+    height:250px;
+    width:210px;
+    position: absolute;
+    right:0px;
+    bottom: -50px; 
+}
+.wh{
+    text-align: center;
+    background-color: #FFFFE0;
+    width:100%;
+    height:300px;
+    z-index:2;
+    position:absolute; 
+    color: #7B3F00;   
+    font-weight:700;
+    
+    padding-left:200px;
+    padding-top: 80px;
+}
+.fa{
+  /*margin-top: 50px;*/
+  font-size: 40px;
+  padding:15px;
+}
+.story{
+    background-color:#DEEED8;
+    margin-top:300px;
+    width:100%;
+    height:550px;
+    position: relative;
+}
+.hapor{
+   
+    background-image:url('../Images/hapoo.webp');
+    width:450px;
+    height:300px;
+    background-repeat: no-repeat;
+    top:0;
+    left:400px;
+    position: absolute;
+}
+
+                   /*IMAGE CARASOUL*/
+.carousel {
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+height: 530px;
+width: 500px;
+overflow: hidden;
+}
+.image-container {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+  }                 
+                  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 49.5%;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .beach{
+    background-image: url('../Images/beach.avif');
+  }
+
+  /*CAtegories*/
+  .category{
+    background-color:#F2F2F2;
+    margin-top:-20px;
+    width:100%;
+    height:700px;
+    z-index:-1;
+    position:  relative;
+   
+  }
+
+ 
+  .catetitle{
+    text-align: center;
+     color: brown;
+      padding:30px;
+  }
+  .pink{
+    background-color:pink;
+    text-align: center;
+    color:green;
+    font-weight: bold;
+    left:410px;
+    width:200px;
+    height:200px;
+    padding-top:0;
+    position:absolute;
+    display: hide;
+  }
+  
+
+  
+  .pomo{
+    background-image: url('../Images/pomo.png');
+    width:95%;
+    height:95%;
+    background-repeat: no-repeat;
+    
+  }
+  .yellow{
+    background-color: #ffffa1;
+    text-align: center;
+    right:410px;
+    bottom:135px;
+    width:200px;
+    height:200px;
+    position:absolute;
+  }
+  .lgreen{
+    background-color:#bcf5bc;
+    text-align: center;
+    right:410px;
+    width:200px;
+    height:200px;
+   
+    position:absolute;
+  }
+  .veggie{
+   
+        background-image: url('../Images/Veggie.png');
+        width:100%;
+        height:100%;
+        background-repeat: no-repeat;
+      
+  }
+  .blue{
+    background-color:#b0e0e6;
+    text-align: center;
+    left:410px;
+    width:200px;
+    height:200px;
+  position:absolute;
+  bottom:135px;
+  }
+
+  .pink:hover, .yellow:hover, .blue:hover, .lgreen:hover{
+    filter:brightness(70%);
+    color:#fff;
+    display:block;
+  }
+
+  .dairy{
+   
+    background-image: url('../Images/dairy.png');
+    width:95%;
+    height:95%;
+    background-repeat: no-repeat;
+  
+}
+.Sea{
+   
+    background-image: url('../Images/SeaFood.png');
+    width:95%;
+    height:95%;
+    background-repeat: no-repeat;
+  
+}

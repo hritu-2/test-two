@@ -1,0 +1,22 @@
+
+.main{
+    background-color: #2E2D33;
+    color:white;
+   
+}
+
+.footer-body table {
+       width:100%;
+       text-align: left;
+}
+.footer-body table tr td{
+    padding-left: 100px;
+}
+.footer-body li{
+    list-style-type: none;
+    color: white;
+}
+.footer-body li a{
+    color: white;
+}
+

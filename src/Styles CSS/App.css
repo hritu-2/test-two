@@ -1,0 +1,58 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bl{
+  
+  margin-top: 0px;
+  height: 40px;
+  text-align: center;
+  background-color:#F7F5F3;
+  
+}
+
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bl ul{
+  list-style-type: none;
+  
+}
+.bl ul li{
+  display:inline;
+  
+
+}
+.bl ul li a{
+  
+  padding:20px;
+  text-decoration: none;
+  color: darkgreen;
+  outline:1px;
+  font-size: 20px;
+  font-weight: 600;
+ }
+ .bgrnd{
+  background-image:url('');
+    background-size: cover;
+    height: 700px;
+    width:100%
+ }
